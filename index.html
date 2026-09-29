@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Send me a WhatsApp message." />
+  <title>+212 716-615621</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0f0c;
+      --card: #111713;
+      --text: #f4f7f5;
+      --muted: #aeb8b1;
+      --whatsapp: #25d366;
+      --whatsapp-hover: #20bd5a;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at top, rgba(37, 211, 102, 0.14), transparent 34rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(94vw, 900px);
+      padding: 56px 24px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .number {
+      margin: 0;
+      font-size: clamp(2.7rem, 9vw, 7rem);
+      line-height: 0.98;
+      letter-spacing: -0.055em;
+      font-weight: 900;
+      text-wrap: balance;
+    }
+
+    .actions {
+      margin-top: 38px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .whatsapp {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      min-height: 58px;
+      padding: 0 24px;
+      border-radius: 999px;
+      background: var(--whatsapp);
+      color: #07110a;
+      font-size: 1.05rem;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 12px 34px rgba(37, 211, 102, 0.22);
+      transition: transform 160ms ease, background 160ms ease, box-shadow 160ms ease;
+    }
+
+    .whatsapp:hover {
+      background: var(--whatsapp-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 16px 42px rgba(37, 211, 102, 0.28);
+    }
+
+    .whatsapp:focus-visible {
+      outline: 3px solid #fff;
+      outline-offset: 4px;
+    }
+
+    .whatsapp svg {
+      width: 27px;
+      height: 27px;
+      fill: currentColor;
+      flex: 0 0 auto;
+    }
+
+    @media (max-width: 520px) {
+      main { padding-inline: 18px; }
+      .number { letter-spacing: -0.04em; }
+      .whatsapp { width: 100%; max-width: 360px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">WhatsApp contact</p>
+    <h1 class="number">+212 716-615621</h1>
+
+    <div class="actions">
+      <a
+        class="whatsapp"
+        href="https://wa.me/212716615621"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Send me a WhatsApp message to +212 716-615621"
+      >
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M19.11 17.205c-.372-.186-2.201-1.086-2.542-1.21-.341-.124-.589-.186-.837.186-.248.372-.961 1.21-1.178 1.458-.217.248-.434.279-.806.093-.372-.186-1.57-.579-2.99-1.846-1.105-.985-1.851-2.201-2.068-2.573-.217-.372-.023-.573.163-.758.167-.166.372-.434.558-.651.186-.217.248-.372.372-.62.124-.248.062-.465-.031-.651-.093-.186-.837-2.015-1.147-2.759-.302-.724-.609-.626-.837-.637-.217-.011-.465-.013-.713-.013s-.651.093-.992.465c-.341.372-1.302 1.272-1.302 3.101s1.333 3.596 1.519 3.844c.186.248 2.623 4.005 6.354 5.617.887.383 1.579.612 2.118.783.89.283 1.699.243 2.339.147.713-.106 2.201-.899 2.511-1.767.31-.868.31-1.612.217-1.767-.093-.155-.341-.248-.713-.434zM16.054 27.5h-.005a11.447 11.447 0 0 1-5.834-1.598l-.418-.248-4.339 1.138 1.158-4.229-.272-.434a11.449 11.449 0 0 1-1.761-6.113c.003-6.323 5.151-11.466 11.476-11.466 3.064.001 5.943 1.195 8.108 3.361a11.403 11.403 0 0 1 3.357 8.11c-.003 6.323-5.151 11.479-11.47 11.479zm9.761-21.245A13.71 13.71 0 0 0 16.06 2.2C8.463 2.2 2.285 8.377 2.282 15.975c0 2.429.634 4.8 1.839 6.89L2.166 30l7.303-1.915a13.75 13.75 0 0 0 6.585 1.677h.006c7.596 0 13.774-6.178 13.777-13.776a13.69 13.69 0 0 0-4.022-9.731z"/>
+        </svg>
+        Send me a WhatsApp message
+      </a>
+    </div>
+  </main>
+</body>
+</html>
